@@ -40,28 +40,15 @@ Average Parking per Month – Parking cost
 - The result is displayed dynamically on the web page.
 
 📦 Project Structure
-├── app.py              # Flask application
-├── model.pkl          # Trained machine learning model
-├── requirements.txt   # Dependencies
-├── templates/
-│   └── index.html     # Frontend UI
-├── static/
-│   └── style.css      # Styling
-├── notebook.ipynb     # Model training & analysis (optional)
-├── dataset.csv        # Dataset used for training
-
-⚠️ Limitations
-- Model performance depends on dataset quality
-- Limited feature set may affect prediction accuracy
-- No input validation for incorrect data types
-- Model file must be present for the app to run
-🔮 Future Improvements
-- Add data visualization and EDA
-- Improve UI using Bootstrap or React
-- Deploy application on cloud (AWS/Render)
-- Add model evaluation metrics (R², RMSE)
-- Implement input validation and error handling
-- Use advanced models for better accuracy
+app.py              # Flask application
+model.pkl          # Trained machine learning model
+requirements.txt   # Dependencies
+templates/
+   - index.html     # Frontend UI
+static/
+   - style.css      # Styling
+notebook.ipynb     # Model training & analysis (optional)
+dataset.csv        # Dataset used for training
 
 📌 Conclusion
 This project demonstrates how machine learning models can be deployed as a web application to solve real-world prediction problems. It highlights the integration of data science and web development to build practical, user-interactive solutions.
