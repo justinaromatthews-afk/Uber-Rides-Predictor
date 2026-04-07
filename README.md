@@ -40,14 +40,21 @@ Average Parking per Month – Parking cost
 - The result is displayed dynamically on the web page.
 
 📦 Project Structure
+
 app.py              # Flask application
+
 model.pkl          # Trained machine learning model
+
 requirements.txt   # Dependencies
+
 templates/
    - index.html     # Frontend UI
+
 static/
    - style.css      # Styling
+     
 notebook.ipynb     # Model training & analysis (optional)
+
 dataset.csv        # Dataset used for training
 
 📌 Conclusion
